@@ -136,3 +136,111 @@ img.sepia1, img.sepia2, img.sepia3{
    img.invert3{
     filter: invert(100%);
    }
+
+   section.container2{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+   }
+   div.imgleft, div.imgright, div.imgmiddle{
+    position: relative;
+    width: 30%;
+    margin: 1%;
+    float: left;
+
+   }
+   .containerimg1, .containerimg2, .containerimg3{
+    width: 100%;
+    
+   }
+   p.introo{
+    position:absolute;
+    top: 60%;
+    bottom: 70%;
+    right: 20%;
+    left: 20%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(239, 148, 166,0.6);
+    font-family: 2em;
+    text-align: center;
+    padding: 1em;
+    box-shadow: 2px 2px 10px rgb(252, 104, 126)
+   }
+   p.para1{
+    position: absolute;
+    top: 70%;
+    bottom: 60%;
+    right: 5%;
+    left: 5%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(239, 148, 166,0.6);
+    font-size: 1em;
+    text-align: center;
+    padding: 3em;
+    box-shadow: 1px 2px 10px rgb(252, 104, 126)
+   }
+   .containerimg1{
+    filter: invert(25%);
+   }
+   .introo1{
+    position: absolute;
+    top: 30%;
+    bottom: 40%;
+    right: 5%;
+    left: 5%;
+    color: rgb(83, 54, 12);
+    background-color: rgb(246, 200, 73,0.7);
+    font-size: 2em;
+    text-align: center;
+    padding: 1em;
+    box-shadow: 10px 10px 10px rgb(255, 252, 168);
+   }
+   .link1{
+    display: block;
+    font-size: 0.8em;
+    background-color: rgb(241, 221, 175);
+    width: 50%;
+    margin: auto;
+    padding: 0.3;
+    margin-top: 1em;
+border-radius: 10px;
+color: rgb(59, 39, 8);
+   }
+   .containerimg2{
+    filter: blur(5px)
+   }
+   .containerimg3{
+    filter: sepia(5%);
+   }
+
+   h3.containertitle, p.cup1, p.cup2, p.cup3{
+    position: absolute;
+    color: rgb(236, 243, 15);
+   }
+
+
+   h3.containertitle{
+    text-align: center;
+   top: 40%;
+   left: 10%;
+   right: 10%;
+   }
+p.cup1{
+    text-align: left;
+    top: 60%;
+    right: 5%;
+    left: 5%;
+}
+p.cup2{
+    text-align: right;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+}
+p.cup3{
+    text-align: end;
+    bottom: 5%;
+    left: 10%;
+    right: 5%;
+    top: 20;
+}
