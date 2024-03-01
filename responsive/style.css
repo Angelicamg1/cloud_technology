@@ -16,10 +16,9 @@ div.sqr:nth-child(1){background-color: brown;}
 div.sqr:nth-child(2){background-color: lightpink;}
 div.sqr:nth-child(3){background-color: darkslateblue;}
 
-/*-----cards-----*/
+/* ----- cards -----  */
 
 main.maincontainer{
-background-color:lightgray;
 width: 80%;
 margin: 10%;
 display: flex;
@@ -39,7 +38,8 @@ section.card{
 
 img.imgcard{
     width: 100%;
-    height: 50%;
+    height: 40%;
+    display: block;
 }
 div.cardinfo{
     background-color: aliceblue;
@@ -66,20 +66,19 @@ a.cardlink:hover{
 }
 /*------BREAKPOINT =1700PX ------*/
 @media only screen and (max-width:1700px)
-{ main.maincontainer{
-    background-color: orange;}
+{ 
     section.card{width: 500px; margin:2em;}
     img.imgcard{height: 60%;}
 }
 /*------BREAKPOINT = 1450px ---------*/
 @media only screen and (max-width:1450px)
-{ main.maincontainer{background-color:lightblue;}
-section.card{width: 700px; height: 700px}
+{section.card{width: 700px; height: 700px}
 
 }
 
-/*------ BREAKPOINT600PX ---------*/
+/*------ BREAKPOINT= 600PX ---------*/
 @media only screen and (max-width:600px){
-    main.maincontainer{background-color: lightsalmon;}
-    section.card{width: 60px;}
+    section.card{width: 100%; height: auto;}
+    img.imgcard{height: auto;}
+    div.cardinfo{height: auto;}
 }
