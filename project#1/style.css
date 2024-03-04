@@ -1,0 +1,19 @@
+img.img1{
+    width: 100%;
+    height: 100%;
+ 
+ 
+   
+}
+ section.container{
+    position: absolute;
+    color: bisque;
+    right: 10%;
+    left: 10%;
+    bottom: 15%;
+    top: 50%;
+    text-align: center;
+    font-size: 2em;
+   
+   
+ }
