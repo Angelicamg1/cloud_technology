@@ -1,19 +1,61 @@
-img.img1{
-    width: 100%;
-    height: 100%;
- 
- 
-   
+
+.header,header{
+    background-color: rgb(213, 254, 201);
 }
- section.container{
-    position: absolute;
-    color: bisque;
+
+
+img.img1{
+    width: 65px;
+}
+
+.navigation{
+    list-style-type: none;
+
+}
+
+
+.navlink{
+    display: inline;
+    font-size: 20px;
+    color: rgb(1, 49, 94);
+    margin-right: 200px;
+}
+
+section.container{
+    width: 100%;
+    position: relative;
+}
+img.img2{
+    width: 100%;
+    filter: brightness(30%);
+}
+p.intro{
+    position: absolute ;
+    top: 30%;
+    bottom: 40%;
     right: 10%;
     left: 10%;
-    bottom: 15%;
-    top: 50%;
+    color: bisque;
+    font-size: 3em;
     text-align: center;
-    font-size: 2em;
-   
-   
- }
+     font-family: "Lilita One", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+      }
+      
+      p.par1{
+        top: 60%;
+        bottom: 20%;
+        font-size: 1.5em;
+        margin: 1em;
+        background-color: rgb(127, 173, 74);
+        padding: 2em;
+        color: bisque;
+      }
+      /*------ BREAKPOINT = 1700PX ------*/
+      @media only screen and (max-width:1700PX){
+        section.container{background-color: rgb(220, 186, 74);}
+        section.container{padding-bottom: 3em }
+        .header.haeder{height: auto;}
+
+      }
