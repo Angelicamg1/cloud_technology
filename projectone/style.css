@@ -197,36 +197,36 @@ p.facts{
  color: rgb(108, 35, 177);}
  
  @media screen and (max-width:1400px) {
-  .title1{font-size: 2em;}
+  h1.title1{font-size: 2em;}
   p.facts{font-size: 1.2em;}
   
  }
 
 @media screen and (max-width:1075px) {
-  .title1{font-size: 1.7em ;}
+  h1.title1{font-size: 1.7em ;}
   p.facts{font-size: 1.1em;}
   
 }
 @media screen and (max-width:988px) {
-  .title1{font-size: 1.4em ;}
+  h1.title1{font-size: 1.4em ;}
   p.facts{font-size: 1em;}
   
 }
 @media screen and (max-width:866px) {
-  .title1{font-size: 1.3em ;}
+  h1.title1{font-size: 1.3em ;}
   p.facts{font-size: 0.9em;}
 }
 @media screen and (max-width:779px) {
-  .title1{font-size: 1.2em ;}
+  h1.title1{font-size: 1.2em ;}
   p.facts{font-size: 0.8em;}
   
 }
 @media screen and (max-width:707px) {
-  .title1{font-size: 1.1em ;}
+  h1.title1{font-size: 1.1em ;}
   p.facts{font-size: 0.7em;}
 }
 @media screen and (max-width:627px) {
-  .title1{font-size: 1em ;}
+  h1.title1{font-size: 1em ;}
   p.facts{font-size: 0.6em;}
   
 }
@@ -715,4 +715,15 @@ td.two{
     p.intro{  font-size: 1.5em;}
   }
  
+  
  
+
+ @media screen and (max-width:955px) {
+  header.title, h1{font-size: 1.8em;}
+}
+@media screen and (max-width:737px) {
+  header.title, h1{font-size: 1.7em;}
+}
+@media screen and (max-width:660px) {
+  header.title, h1{font-size: 1.4em;}
+}
