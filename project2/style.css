@@ -1,21 +1,45 @@
 *{box-sizing: border-box;}
 html{scroll-behavior: smooth;}
 :root{
-    --primarycolor: rgb(38, 5, 34);
-    --primarydark: rgb(120,20,107);
-    --primarylight: rgb(255, 251, 246);
+    --primarycolor: rgb(18, 5, 2);
+    --primarydark: rgb(41, 15, 10);
+    --primarylight: rgb(244, 213, 208);
 }
 
-h1{
+h1,h3{
     background-color: var(--primarylight);
     text-align: center;
     padding: 1em;
     color: var(--primarycolor);
+    font-family: "Anton", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 0px;
     
 }
 .nav-item,.nav-link{
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding-top: 1em;
-  justify-content: center;
-
+    font-family: "Anton", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+    color: rgb(18, 5, 2) ;
 }
+
+.navbar, .navbar-expand-sm ,.navbar-light{
+    background-color: rgb(240, 239, 239);
+}
+.c-img{
+    filter: brightness(0.7);
+    
+}
+.h2{
+    padding-bottom: 67.5%;
+    font-size: 2.7em;
+    font-family: "Anton", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+    color: rgb(249, 193, 182);
+    text-shadow: 2px 2px 2px salmon ;
+}
+
