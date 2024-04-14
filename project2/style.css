@@ -42,4 +42,130 @@ h1,h3{
     color: rgb(249, 193, 182);
     text-shadow: 2px 2px 2px salmon ;
 }
+.nav{
+    position: relative;
+}
+.bibi-bag{
+    position: absolute;
+    right:50%;
+    left: 85%;
+    top: 25%;
+    bottom: 70%;
+    
+}
+.image1{
+    position: relative;
+    width: 100%;
+    height: 120%;
+    filter: brightness(0.9);
+}
+.header1{
+    position: absolute;
+    top: 70%;
+    bottom: 5%;
+    right: 22%;
+    font-size: 3vw;
+    font-family: "Anton", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+    color: rgb(249, 193, 182);
+    text-shadow: 2px 2px 2px salmon ;
+}
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: rgb(244, 213, 208);
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color:rgb(18, 5, 2);
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-family: "Anton", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: rgb(198, 81, 57);
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: rgb(18, 5, 2);
+	text-decoration: none;
+	font-family: "Anton", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+	color: rgb(18, 5, 2);
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color:rgb(106, 102, 102);
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(196, 65, 65, 0.254);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px)
+{
+  .footer-col{
+    width: 100%;
+}}
