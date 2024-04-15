@@ -70,6 +70,7 @@ h1,h3{
     font-style: normal;
     color: rgb(249, 193, 182);
     text-shadow: 2px 2px 2px salmon ;
+    overflow: hidden
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
@@ -77,14 +78,11 @@ body{
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
 }
-*{
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
-}
+
 .container{
 	max-width: 1170px;
 	margin:auto;
+   
 }
 .row{
 	display: flex;
@@ -96,6 +94,9 @@ ul{
 .footer{
 	background-color: rgb(244, 213, 208);
     padding: 70px 0;
+  
+    
+   
 }
 .footer-col{
    width: 25%;
@@ -171,3 +172,10 @@ ul{
 }}
 
 
+
+
+@media(max-width: 716px)
+{
+  .header1{
+    display: none;
+}}
