@@ -53,8 +53,11 @@ h1,h3{
     bottom: 70%;
     
 }
-.image1{
+.introdiv{
     position: relative;
+}
+.image1{
+
     width: 100%;
     height: 120%;
     filter: brightness(0.9);
@@ -164,6 +167,7 @@ ul{
     width: 50%;
     margin-bottom: 30px;
 }
+.header1{top: 30%;}
 }
 @media(max-width: 574px)
 {
