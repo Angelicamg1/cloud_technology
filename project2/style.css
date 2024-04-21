@@ -9,7 +9,7 @@ html{scroll-behavior: smooth;}
 h1,h3{
     background-color: var(--primarylight);
     text-align: center;
-    padding: 1em;
+    padding: 1.5em;
     color: var(--primarycolor);
     font-family: "Anton", sans-serif;
     font-weight: 900;
@@ -35,7 +35,7 @@ h1,h3{
 }
 .h2{
     padding-bottom: 67.5%;
-    font-size: 2.7em;
+    font-size: 3.2vw;
     font-family: "Anton", sans-serif;
     font-weight: 550;
     font-style: normal;
@@ -64,10 +64,10 @@ h1,h3{
 }
 .header1{
     position: absolute;
-    top: 70%;
+    top: 41%;
     bottom: 5%;
     right: 22%;
-    font-size: 3vw;
+    font-size: 3.2vw;
     font-family: "Anton", sans-serif;
     font-weight: 550;
     font-style: normal;
@@ -167,7 +167,6 @@ ul{
     width: 50%;
     margin-bottom: 30px;
 }
-.header1{top: 30%;}
 }
 @media(max-width: 574px)
 {
@@ -176,10 +175,9 @@ ul{
 }}
 
 
-
-
-@media(max-width: 716px)
+@media(max-width: 767px)
 {
   .header1{
     display: none;
 }}
+
