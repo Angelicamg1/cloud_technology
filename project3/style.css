@@ -40,23 +40,35 @@ body{
     color: rgb(255, 163, 70);
   }
   
+.introdiv{
+  position: relative;
+}
+
+
 .main{
     position: absolute;
-    color: rgb(14, 30, 135);
-    top: 4.5em;
+    color: rgb(12, 27, 121);
+    text-shadow: 3px 3px rgb(250, 149, 16);
+    top: 2.5em;
     left: 35%;
     right: 40%;
-    font-size: 2.8em;
-    font-family: "Teko", sans-serif;
-    font-weight: 600;   
+    font-size: 5em;
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 550;
+    font-style: normal;
+   
 }
 .main2{
     position: absolute;
-    color: rgb(23, 40, 152);
-   margin-top: 13em;
+    color: rgb(14, 30, 135);
+    margin-top: 15em;
+   text-align: center;
     left: 35%;
     right: 40%;
     font-size: 1.5em;
     font-family: "Teko", sans-serif;
-    font-weight: 600;  
+    font-optical-sizing: auto;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px rgb(253, 150, 15);
+ 
 }
