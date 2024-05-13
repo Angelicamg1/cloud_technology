@@ -76,7 +76,7 @@ body{
   
 }
 .info{
-padding-top: 61%;
+padding-top: 50%;
 }
 .one{
   background-color: rgb(255, 255, 255);
@@ -121,12 +121,11 @@ h1{
 }
 .info2{
   background-color: rgb(255, 255, 255);
-  padding-bottom: 40%;
+  padding-bottom: 35%;
 }
-section.card{
+section.card1{
   width: 25%;
-  
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 242, 223);
   float: left;
   margin-left: 5%;
   border-radius: 1em;
@@ -137,4 +136,32 @@ section.card{
 img.cardimg{
   width: 100%;
   
+}
+.img2{
+  width: 90%;
+  margin: 2em;
+  
+}
+
+main.cardcontainer{
+  width: 100%;
+ margin: 2em;
+ 
+}
+section.card{
+  width: 45%;
+  float: left;
+  overflow: hidden;
+
+}
+
+section.card:hover{
+  box-shadow: 5px 5px 15px rgb(50,50 , 50);
+  color: green;
+  transform: scale(1.01);
+}
+section.card:hover h2{
+  text-decoration: underline;
+  transform: rotate(-5deg) translate(50px)   ;
+ 
 }
