@@ -12,12 +12,13 @@ body{
 
   .title{
     position: absolute;
+    top: 0.7em;
     font-size: 2.2em;
     color: rgb(255, 0, 128);
     font-family: "Teko", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
-    left: 20%;
+    left: 15%;
     right: 40%;
   }
   .heading{
@@ -33,7 +34,7 @@ body{
   }
   .heading a{
     padding: 14px 16px;
-    color: rgb(255, 0, 128);
+    color: rgb(229, 0, 114);
     text-decoration: none;
     justify-content: space-evenly;
   }
@@ -50,9 +51,9 @@ body{
 .main{
     position: absolute;
     color: rgb(255, 255, 255);
-    top: 2.5em;
+    top: 3em;
     justify-content: center;
-    left: 34%;
+    left: 32%;
     font-size: 5em;
     font-family: "Jacquard 24", system-ui;
     font-weight: 550;
@@ -64,33 +65,35 @@ body{
 
 .main2{
   position: absolute;
-  color: rgb(255, 230, 241);
-  margin-top: 16em;
+  color: rgb(255, 255, 255);
+  margin-top: 15em;
  justify-content: center;
-  left: 32%;
-  right: 32%;
+  left: 20%;
+  right: 20%;
   font-size: 1.5em;
   font-family: "Teko", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
+  text-shadow: 4px 4px 5px rgb(158, 3, 94);
   
 }
 .info{
-padding-top: 50%;
+padding-top: 55%;
 }
 .one{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 249, 253);
   padding-bottom: 3em;
+  padding: auto;
   
 }
-h1{
+.text1{
   padding-top: 1em;
-  margin-left: 40%;
+  margin-left: 44%;
   font-size: 2.3em;
   font-family: "Teko", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
-  color: rgb(0, 0, 0);
+  color: rgb(192, 0, 96);
 }
 .text{
   margin-left: 0.5%;
@@ -98,7 +101,7 @@ h1{
   font-family: "Teko", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 0, 128);
 }
 .date{
   margin-left: 3.5%;
@@ -106,26 +109,44 @@ h1{
   font-family: "Teko", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 0, 128);
 
 }
 .hone{
+  padding-top: 1em;
+  margin-left: 42%;
+  font-size: 2.3em;
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  color: rgb(192, 0, 96);
+ 
+}
+.htwo{
   padding-top: 1em;
   margin-left: 38%;
   font-size: 2.3em;
   font-family: "Teko", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
-  color: rgb(0, 0, 0);
- 
+  color: rgb(192, 0, 96);
+}
+.hthree{
+  padding-top: 1em;
+  margin-left: 43%;
+  font-size: 2.3em;
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  color: rgb(192, 0, 96);
 }
 .info2{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 249, 253);
   padding-bottom: 35%;
 }
 section.card1{
   width: 25%;
-  background-color: rgb(255, 242, 223);
+  background-color: rgb(255, 249, 253);
   float: left;
   margin-left: 5%;
   border-radius: 1em;
@@ -140,18 +161,24 @@ img.cardimg{
 .img2{
   width: 90%;
   margin: 2em;
+ 
   
 }
 
 main.cardcontainer{
   width: 100%;
- margin: 2em;
- 
+  position: absolute;
+  margin-left: 4em;
+  background-color: rgb(255, 249, 253);
+
+  
+  
 }
 section.card{
   width: 45%;
   float: left;
   overflow: hidden;
+  position: relative;
 
 }
 
@@ -165,3 +192,108 @@ section.card:hover h2{
   transform: rotate(-5deg) translate(50px)   ;
  
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+   
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: rgb(244, 213, 208);
+    padding: 70px 0;
+  
+    
+   
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color:rgb(18, 5, 2);
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-family: "Anton", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: rgb(198, 81, 57);
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: rgb(18, 5, 2);
+	text-decoration: none;
+	font-family: "Anton", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+	color: rgb(18, 5, 2);
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color:rgb(106, 102, 102);
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(196, 65, 65, 0.254);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px)
+{
+  .footer-col{
+    width: 100%;
+}}
+
+
+@media(max-width: 767px)
+{
+  .header1{
+    display: none;
+}}
