@@ -6,81 +6,86 @@ body{
     margin: 0px;
   }
 
+/*Nav Bar*/
 
-  .introdiv{
-    position: relative;
-  }
 
-  .title{
-    position: absolute;
-    top: 0.8em;
-    font-size: 2.2em;
-    color: rgb(255, 0, 128);
-    font-family: "Teko", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    left: 5%;
-    right: 40%;
+.navbar-brand{
+  top: 0.6em;
+  font-size: 2.2em;
+  color: rgb(217, 2, 110);
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+}
+  .carousel-inner{
+    display: flex;
+    flex-wrap: wrap;
+   
   }
   .heading{
-    position: absolute;
-    float: right;
+    padding-top: 0px;
     right: 3%;
-    margin-top: 1.4em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     font-size: 1.7em;
     font-family: "Teko", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
-    
-  }
-  .heading a{
-    padding: 14px 16px;
-    color: rgb(194, 0, 97);
-    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 249, 253);
     justify-content: space-evenly;
+   
+  }
+
+  .heading a{
+    padding: 16px;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    
   }
 
   .heading a:hover {
-    color: rgb(255, 163, 70);
+    color: rgb(255, 108, 181);
+    
+
   }
+
+/*About Me*/
   
-.introdiv{
+  .introdiv{
   position: relative;
+  }
+
+
+.p1{
+  
+  color: rgb(255, 235, 235);
+  font-size: 5em;
+  justify-content: center; 
+  font-family: "Jacquard 24", system-ui;
+  font-weight: 550;
+  font-style: normal;
+  text-shadow: 4px 4px 5px rgb(158, 3, 94);
+    
 }
 
 
-.main{
-    position: absolute;
-    color: rgb(255, 255, 255);
-    top: 3em;
-    justify-content: center;
-    left: 32%;
-    font-size: 5em;
-    font-family: "Jacquard 24", system-ui;
-    font-weight: 550;
-    font-style: normal;
-    text-shadow: 2px 10px rgb(230, 0, 134);
-   
-}
-
-
-.main2{
-  position: absolute;
+.p2{
   color: rgb(255, 255, 255);
-  margin-top: 15em;
- justify-content: center;
-  left: 20%;
-  right: 20%;
+  justify-content: center;
   font-size: 1.5em;
   font-family: "Teko", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   text-shadow: 4px 4px 5px rgb(158, 3, 94);
+  padding-bottom: 10em;
   
 }
-.info{
-padding-top: 55%;
-}
+
+/*Education*/
+
 .one{
   background-color: rgb(255, 249, 253);
   padding-bottom: 3em;
@@ -92,12 +97,12 @@ padding-top: 55%;
 
 .text1{
   padding-top: 1em;
-  margin-left: 44%;
+  text-align: center;
   font-size: 2.3em;
   font-family: "Teko", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
-  color: rgb(194, 0, 97);
+  color: black;
   
 
 }
@@ -107,65 +112,16 @@ padding-top: 55%;
   font-family: "Teko", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
-  color: rgb(255, 0, 128);
+  color: black;
 }
 .date{
-  margin-left: 2.8%;
+  margin-left:2em;
+  text-align: left;
   font-size: 1.2em;
   font-family: "Teko", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
-  color: rgb(255, 0, 128);
-
-}
-
-.hone{
-  margin-bottom: 2em;
-  margin-left: 40%;
-  font-size: 2.3em;
-  font-family: "Teko", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  color: rgb(255, 255, 255);
-  text-shadow: 2px 2px rgb(230, 0, 134);
- 
-}
-.info2{
-  margin-top: 50%;
-}
-.htwo{
-  margin-left: 12.8em;
-  padding-top: 2em;
-  font-size: 2.3em;
-  font-family: "Teko", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  color: rgb(255, 255, 255);
-  text-shadow: 2px 2px rgb(230, 0, 134);
-  
-}
-.hthree{
-  margin-left: 27em;
-  padding-top: 1em;
-  font-size: 2.3em;
-  font-family: "Teko", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  color: rgb(255, 255, 255);
-  text-shadow: 2px 2px rgb(230, 0, 134);
-  
-  
-}
-
-section.card1{
-  width: 26%;
-  background-color: rgb(255, 249, 253);
-  float: left;
-  margin-left: 5%;
-  border-radius: 1em;
-  overflow: hidden;
-  position: relative;
-  bottom: 2.4em;
+  color: black;
 
 }
 .photo1{
@@ -179,6 +135,41 @@ section.card1{
   
 }
 
+/*Experiences*/
+
+.hone{
+  justify-content: center;
+  display: flex;
+  flex: wrap;
+  margin-bottom: 2em;
+  font-size: 2.3em;
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  
+}
+.experiences{
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+section.card1{
+  width: 26%;
+  background-color: rgb(255, 249, 253);
+  float: left;
+  margin-left: 5%;
+  border-radius: 1em;
+  overflow: hidden;
+  position: relative;
+  bottom: 2.4em;
+
+}
+.card1{
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+}
 img.cardimg1{
   width: 400px;
   height: 350px;
@@ -197,19 +188,19 @@ img.cardimg3{
 .cardtext{
   padding-top: 1em;
   font-size: 1.6em;
-  margin-left:1.5em;
+  text-align: center;
   font-family: "Teko", sans-serif;
   font-weight: 800;
-  color: rgb(114, 1, 58);
+  color: black;
   
 }
 .cardtext1,.cardtext2{
   padding-top: 1em;
   font-size: 1.6em;
-  margin-left:4em;
+  text-align: center;
   font-family: "Teko", sans-serif;
   font-weight: 800;
-  color: rgb(114, 1, 58);
+  color:black;
 }
 .ex{
   font-size: 1em;
@@ -217,7 +208,7 @@ img.cardimg3{
   margin-right: 1.5em;
   font-family: "Teko", sans-serif;
   font-weight: 700;
-  color: rgb(196, 0, 98);  
+  color: black; 
   
 }
 .ex1{
@@ -227,36 +218,43 @@ img.cardimg3{
   margin-bottom: 2.5em;
   font-family: "Teko", sans-serif;
   font-weight: 700;
-  color: rgb(196, 0, 98);  
+  color: black; 
   
 }
 
-
+/*Web Technology Projects*/
+.projecttitle{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 2em;
+  font-size: 2.3em;
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  
+  
+}
 
 .img2{
   width: 90%;
   margin: 2em;
-  
-}
 
-main.cardcontainer{
-  width: 100%;
-  
-  
 }
 section.card{
   width: 45%;
-  float: left;
   overflow: hidden;
   margin: 2em;
-
-
+ 
+ 
+  
 }
 
+
 section.card:hover{
-  box-shadow: 5px 5px 15px rgb(50,50 , 50);
-  color: green;
-  transform: scale(1.01);
+  box-shadow: 5px 5px 15px rgb(50,50 , 50); 
+  transform:scale(1.01);
 }
 section.card:hover h2{
   text-decoration: underline;
@@ -264,63 +262,77 @@ section.card:hover h2{
  
 }
 
-
 .card-title2{
+  text-align: center;
   font-size: 2em;
   margin-top: 0.3em;
-  margin-left: 3em;
   font-family: "Teko", sans-serif;
   font-weight: 800;
-  color: rgb(194, 0, 97);
+  color: rgb(0, 0, 0);
 }
 .card-title1{
   font-size: 2em;
   margin-top: 0.3em;
-  margin-left: 1.5em;
+  text-align: center;
   font-family: "Teko", sans-serif;
   font-weight: 800;
-  color: rgb(194, 0, 97);
+  color: rgb(0, 0, 0);
 }
 
 
+main.cardcontainer{
+  width: 100%; 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+ 
+  
+}
 
+.modal-title{
+  position: absolute;
+  
+}
 
+/*Class Activities*/
 
+.hthree{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 2.3em;
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  
+}
 
-
-
-
-
-
-
-
-
-
+/*Footer*/
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{
 	line-height: 1.5;
-	font-family: 'Poppins', sans-serif;
+	font-family: "Teko", sans-serif;
 }
 
 .container{
 	max-width: 1170px;
 	margin:auto;
- 
    
 }
-.row{
+div.row3{
 	display: flex;
 	flex-wrap: wrap;
+  
 }
 ul{
 	list-style: none;
-  
 }
 .footer{
-	background-color: rgb(68, 41, 37);
-    padding: 70px 0;
+	background-color: rgb(242, 241, 241);
+  padding: 70px 0;
   
     
    
@@ -331,10 +343,10 @@ ul{
 }
 .footer-col h4{
 	font-size: 18px;
-	color:rgb(18, 5, 2);
+	color:rgb(0, 0, 0);
 	text-transform: capitalize;
 	margin-bottom: 35px;
-	font-family: "Anton", sans-serif;
+  font-family: "Teko", sans-serif;
     font-weight: 900;
     font-style: normal;
 	position: relative;
@@ -344,7 +356,7 @@ ul{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: rgb(198, 81, 57);
+	color: rgb(255, 0, 128);
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
@@ -355,36 +367,77 @@ ul{
 .footer-col ul li a{
 	font-size: 16px;
 	text-transform: capitalize;
-	color: rgb(18, 5, 2);
+	color: rgb(0, 0, 0);
 	text-decoration: none;
 	font-family: "Anton", sans-serif;
     font-weight: 600;
     font-style: normal;
-	color: rgb(18, 5, 2);
 	display: block;
 	transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-	color:rgb(106, 102, 102);
+	color: rgb(255, 0, 128);
 	padding-left: 8px;
 }
 .footer-col .social-links a{
 	display: inline-block;
 	height: 40px;
 	width: 40px;
-	background-color: rgba(196, 65, 65, 0.254);
+	color: black;
+  background-color: rgba(255, 167, 211, 0.387);
 	margin:0 10px 10px 0;
 	text-align: center;
 	line-height: 40px;
 	border-radius: 50%;
-	color: #ffffff;
+	
 	transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover{
-	color: #24262b;
-	background-color: #ffffff;
+	color: rgb(194, 0, 97);
+	
+}
+.footer{
+  position: relative;
+  padding-bottom: 20%;
+}
+/*Forms*/
+div.inforight{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+ left: 50%;
+ right: 50%;
+ top: 5%;
+ bottom: 5%;
+  
+}
+.text5{
+  font-size: 18px;
+	color:rgb(0, 0, 0);
+	text-transform: capitalize;
+	margin-bottom: 35px;
+  font-family: "Teko", sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+    margin-top:40px;
 }
 
+.footer2{
+  text-align: center;
+  font-size: 18px;
+	color:rgb(255, 255, 255);
+	text-transform: capitalize;
+	margin-bottom: 35px;
+  font-family: "Teko", sans-serif;
+  font-weight: 900;
+  background-color: rgb(255, 0, 128);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-shadow: 4px 4px 5px rgb(158, 3, 94);
+  
+
+}
 /*responsive*/
 @media(max-width: 767px){
   .footer-col{
@@ -399,8 +452,116 @@ ul{
 }}
 
 
-@media(max-width: 767px)
-{
-  .header1{
+@media only screen and (max-width:1283px)
+{ 
+    section.card{width: 550px;}
+    
+}
+
+/*------BREAKPOINT = px ---------*/
+@media only screen and (max-width:1231px)
+{section.card{width: 500px;}
+
+}
+/*------BREAKPOINT = px ---------*/
+@media only screen and (max-width:1131px)
+{section.card{width: 95%;
+}
+
+}
+
+/*------ BREAKPOINT= 600PX ---------*/
+@media only screen and (max-width:600px){
+    section.card{width: 100%; }
+    
+}
+
+@media only screen and (max-width:1141px){
+  .p1{
+    text-align: center;
+    font-size: 4.5em;
+  } 
+  .p2{
+    text-align: center;
+    font-size: 1.4em;
+  }
+  
+}
+
+@media only screen and (max-width:1064px){
+  .p1{
+    text-align: center;
+    font-size: 4.3em;
+  } 
+  .p2{
+    text-align: center;
+    font-size: 1.3em;
+  }
+  
+}
+@media only screen and (max-width:989px){
+  .p1{
+    text-align: center;
+    font-size: 4.1em;
+  } 
+  .p2{
+    text-align: center;
+    font-size: 1.1em;
+  }
+  
+}
+@media only screen and (max-width:837px){
+  .p1{
+    text-align: center;
+    font-size: 4em;
+  } 
+  .p2{
+    text-align: center;
+    font-size: 1em;
+  }
+  
+}
+
+/*Responsive image*/
+@media only screen and (max-width:1000px){
+  .logoimg{
+    width: 120%;
+}
+.photo1{
+  right: 5em;
+}
+}
+@media only screen and (max-width:817px){
+  .logoimg{
+    width: 100%;
+}
+.photo1{
+  right: 2em;
+}
+}
+
+@media only screen and (max-width:779px){
+  .logoimg{
+    width: 90%;
+}
+.photo1{
+  right: 1.5em;
+}
+}
+@media only screen and (max-width:746px){
+  .logoimg{
     display: none;
-}}
+
+  }
+}
+
+/*Footer and forms*/
+@media only screen and (max-width:991px){
+  .text5{
+    display: none;
+
+  }
+  div.inforight{
+    display: none;
+  }
+}
